@@ -1,9 +1,11 @@
 # MateTower
-Dieses Projekt serviert frische Mateflaschen durch eine Rotation an der magischen Matekurbel.
+Dieses Projekt serviert neue Mateflaschen durch eine Rotation an der magischen Matekurbel. Alternativ arbeiten wir an einer Lösung durch einen Impuls nur eine Flasche auszugeben, ohne das eine Kurbel gedreht werden muss. (durch Gewichtskraft der Flaschen selbst)
 
 
-## Barrel
-Barrels / Trommeln bestehen aus Rädern mit öffnungen, die eine gewisse Anzahl an Flaschen aufnehmen und zum nächsten Barrel übergeben.
+## Barrel / Trommel
+![Barrel Trommel](docu/Barrel.png)
+
+Barrels / Trommeln beschreibt die drehenden Einheiten. Sie bestehen aus Kreisen mit Öffnungen, die eine gewisse Anzahl an Flaschen aufnehmen und entlang der Transportroute zum nächsten Barrel übergeben.
 
 ## Führungsplatte
 Holzplatten mit einer entsprechenden Nut, die die Flasche entlang der Föderroute führt.
@@ -17,3 +19,10 @@ Holzplatten mit einer entsprechenden Nut, die die Flasche entlang der Föderrout
 # Zusammenbau
 ## Zahnräder
 Müssen je um 2.5 Grad (Halber Zahnabstand) verdreht eingebaut werden, das alle Flaschenräder synchron laufen und trotzdem die zahnräder innereinander passen!
+
+# Material:
+* 12mm Siebdruckplatte
+444 x 2000 mm
+
+Arbeitsbereich Fräse:
+Verfahrwege: X=720 mm; Y=420 mm; Z= 110 mm
