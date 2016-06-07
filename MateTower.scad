@@ -20,22 +20,26 @@ for (l = [0:($Barrel_stages-1)]) {
 translate([-15,-1,-20])
 rotate([90,0,0])
 difference(){
-    cube([30,$Barrel_distance*$Barrel_stages+10,2]);
+    cube([40,$Barrel_distance*$Barrel_stages+10,2]);
     for (i = [0:($Barrel_stages-1)]) {
-        translate([15,20+19*i,-1])
-        rotate([0,0,180*i])
-        nut_arc(180,4,9.5,$mate_r1);
+        translate([15,20+19.5*i,-1])
+        rotate([0,0,180+180*i])
+        nut_arc(180,4,9.75,$mate_r1);
     }
 }
+translate([11.5,1,19.5*2])
+rotate([90,0,0])
+color("green")
+zahnrad6();
 
 //Führungsplatte
 translate([-15,-17,-20])
 rotate([90,0,0])
 difference(){
-    cube([40,$Barrel_distance*$Barrel_stages+10,2]);
+    cube([30,$Barrel_distance*$Barrel_stages+10,2]);
     for (i = [0:($Barrel_stages-1)]) {
-        translate([15,20+19*i,-1])
-        rotate([0,0,180*i])
-        nut_arc(180,4,9.5,$mate_r2);
+        translate([15,20+19.5*i,-1])
+        rotate([0,0,180+180*i])
+        nut_arc(180,4,9.75,$mate_r2);
     }
 }
