@@ -6,6 +6,6 @@ module Flaschenplatte(radius, cap){
           circle(r=radius);
       }
       //Achsendurchmesser
-      circle(r=0.2);
+      circle(r=0.5);
   }
 }
