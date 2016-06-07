@@ -8,7 +8,11 @@ Dieses Projekt serviert neue Mateflaschen durch eine Rotation an der magischen M
 Barrels / Trommeln beschreibt die drehenden Einheiten. Sie bestehen aus Kreisen mit Öffnungen, die eine gewisse Anzahl an Flaschen aufnehmen und entlang der Transportroute zum nächsten Barrel übergeben.
 
 ## Führungsplatte
+![Barrel Trommel](docu/Fuehrungsplatte.png)
 Holzplatten mit einer entsprechenden Nut, die die Flasche entlang der Föderroute führt.
+Routendurchmesser:
+* Flaschenbauch: d= 70mm
+* Flaschendeckel d= 35mm
 
 # Materialliste
 * M8 Gewindestangen
