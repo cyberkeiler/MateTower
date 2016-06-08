@@ -30,3 +30,22 @@ Müssen je um 2.5 Grad (Halber Zahnabstand) verdreht eingebaut werden, das alle 
 
 Arbeitsbereich Fräse:
 Verfahrwege: X=720 mm; Y=420 mm; Z= 110 mm
+
+# Modulbauweise
+Um einzelne Module fräsen zu können, planen wir stabelbare Module, die mit folgenden Parametern erzeugt werden können:
+## Parameter für 65cm Hohes 4-Stage Modul:
+    $mate_r1 = 3.5;       //radius of bottle Body
+    $mate_r2 = 1.75;      //radius of bottle neck
+
+    $Barrel_r= 9.5;      //radius of one barrel / Trommel
+    $Barrel_cap = 6;     //amount of bottles per barrel
+    $Barrel_stages = 6;  //amount of barrels per tower
+    $Barrel_distance = 19.5; //Barrel Distance (Gear mid radius)
+
+    $Barrel_offset = 33.556;  //Barrel offset in degrees!
+
+    $Tower_width = 44.4;
+    $Tower_height = 65;
+![4-Stage Modul](docu/Modul-4Stage.png)
+
+[Hier als 3D Modell](docu/Modul-4Stage.stl)
