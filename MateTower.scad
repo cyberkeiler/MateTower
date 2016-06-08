@@ -1,5 +1,5 @@
 $mate_r1 = 3.5;       //radius of bottle Body
-$mate_r2 = 2;         //radius of bottle neck
+$mate_r2 = 1.75;         //radius of bottle neck
 $Barrel_r= 9.5;      //radius of one barrel / Trommel
 $Barrel_cap = 6;     //amount of bottles per barrel
 $Barrel_stages = 5;  //amount of barrels per tower
@@ -7,12 +7,12 @@ $Barrel_distance = 19.5;
 
 include <arc.scad>;
 include <Barrel.scad>;
+include <mutter.scad>;
 include <Flaschenplatte.scad>;
-
+include <Fuehrungsplatte.scad>;
 
 for (l = [0:($Barrel_stages-1)]) {
   translate([0,0,19*l])
-  color("red")
   Barrel($Barrel_cap, $mate_r1, $mate_r2);
 }
 
