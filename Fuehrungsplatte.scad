@@ -12,7 +12,7 @@ Fuehrungsplatte3D(44.4,70,d=19.5,r=1.75,n=4, t=1.2);
 // d: Abstand der Trommeln
 // t: Plattenstärke
 module Fuehrungsplatte3D(w,h,r,d,t,n){
-  color("lightblue")
+  color("Purple")
   linear_extrude(height = t, center = true, convexity = 10, twist = 0)
   Fuehrungsplatte(w,h,r,d,n);
 }

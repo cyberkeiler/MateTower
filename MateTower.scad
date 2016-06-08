@@ -31,7 +31,11 @@ color("green")
 zahnrad6();
 
 //Führungsplatte
-
 translate([-$Tower_width/2,-19.1,-$Tower_height + $Barrel_distance *($Barrel_stages-0.5)])
 rotate([90,0,0])
 Fuehrungsplatte3D( w=$Tower_width, h=$Tower_height, r=$mate_r2,d=$Barrel_distance,t=2,n=$Barrel_stages+1);
+
+//Plexiglas Frontplatte
+color([0.8,0.8,1,0.5])
+translate([-$Tower_width/2,-20.3,-$Tower_height + $Barrel_distance *($Barrel_stages-0.5)])
+cube([$Tower_width, 0.2, $Tower_height]);
